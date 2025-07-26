@@ -1,5 +1,7 @@
 # Interview Coach
 
+![Screenshot](/Readme/screenshot.png)
+
 This tool is created to provide the user with realtime feedback during a (job) interview around how it's going. By analyzing the (real-time captured) interview transcript, it can analyze the tone of the dialogue and make suggestions around what to focus on more and what to leave behind.
 
 In contrast to some other popular tools, this one is not only free to use and modify, but also supports hooking up to locally hosted Ollama instance to avoid paying OpenAI (more on that later)
