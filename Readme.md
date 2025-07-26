@@ -48,6 +48,14 @@ Use the following shortcuts
 * `+` to increase the portion of the "GPT Suggestion" container and `-` to decrease it
 * Use `Ctrl +` and `Ctrl -` (system default) to increase / decrease the font size of your terminal
 
+## Known issues
+
+Among many, the most irritating one is that the app doesn't shut down gracefully (even under keyboard interrupt). Please remember to close the terminal window after done to avoid 
+
+## Data usage
+
+The application doesn't collect any data at all, apart from what you send to OpenAI if you choose to use their models. I am a strong privacy advocate and initially I was not even considering OpenAI integration.
+
 ## Roadmap
 
 If the project gets reasonable popularity, I'm aiming to add several features including
