@@ -6,8 +6,10 @@ In contrast to some other popular tools, this one is not only free to use and mo
 
 ## Structure
 
-- **`app.py`** is the entry point to the, well, app
-- **`gpt_request`** contains 
+- **`app.py`** is the entry point to the app. You may think of this as the back-end, which is also responsible for launching the front-end
+- **`gpt_request.py`** contains classes for calling different types of LLM providers (OpenAI and Ollama supported now)
+- **`chat_history.py`** - a class that keeps the dialogue history
+- **`textual_ui.py`** is the front-end part of the app, it contains instructions for [textual](https://github.com/Textualize/textual) on how to draw the UI. 
 
 ## Installing
 
@@ -44,7 +46,7 @@ Use the following shortcuts
 * `F7` to perform a call the LLM. For Ollama, it will be _stream_-ed .You may press `F7` again to stop generating the current response and generate a new one. The LLM will receive the transcript up to the **latest stable phrase by the interviewer** meaning unfinished speech and/or last interviewee-s phrase will not be counted.
 * `F8` to clear the chat history completely (the system prompt will stay)
 * `+` to increase the portion of the "GPT Suggestion" container and `-` to decrease it
-* Use `Ctrl +` and `Ctrl -` (system default) to increase / decrease the size of your terminal
+* Use `Ctrl +` and `Ctrl -` (system default) to increase / decrease the font size of your terminal
 
 ## Roadmap
 
