@@ -1,0 +1,6 @@
+pyaudiowpatch
+numpy
+RealtimeSTT
+textual
+textual-dev
+samplerate

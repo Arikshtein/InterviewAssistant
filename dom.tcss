@@ -1,0 +1,43 @@
+Screen {
+    layout: horizontal;
+}
+
+#gpt {
+    border: solid yellow;
+    background: #180021;
+    padding: 1 2;
+}
+
+#chatcontainer {
+    border: solid white;
+    background: #001408;
+    width: 70%;
+}
+
+.chat_message {
+    padding: 1 2;
+    width: auto;
+    max-width: 75%;
+    min-width: 10%;
+    height: auto;
+}
+
+.chat_message_left {
+    color: #bcbeffff;
+    outline: round blue 50%;
+}
+
+.chat_message_right {
+    color: #69ff8aff;
+    outline: round green 50%;
+}
+
+.align_left {
+    align-horizontal: left;
+    height: auto;
+}
+
+.align_right {
+    align-horizontal: right;
+    height: auto;
+}

@@ -1,0 +1,8 @@
+apikey
+models--*
+__pycache__
+.locks
+delete_*
+RRealTimeSST
+listen_wave.py
+systemprompt.txt
