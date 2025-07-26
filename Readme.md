@@ -1,6 +1,6 @@
 # Interview Coach
 
-![Screenshot](/Readme/screenshot.png)
+![Screenshot](Readme/Screenshot.png)
 
 This tool is created to provide the user with realtime feedback during a (job) interview around how it's going. By analyzing the (real-time captured) interview transcript, it can analyze the tone of the dialogue and make suggestions around what to focus on more and what to leave behind.
 
